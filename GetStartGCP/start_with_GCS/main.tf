@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  project = "ca-qulijing-edu"
+  project = "プロジェクトID"
   region = "asia-northeast1"
   zone = "asia-northeast1-b"
 }
@@ -16,5 +16,5 @@ provider "google" {
 resource google_storage_bucket "sb_tf"{
   name = "ca-qulijing-edu_terroform"
   location = "asia-northeast1"
-  project = "ca-qulijing-edu"
+  project = "プロジェクトID"
 }
