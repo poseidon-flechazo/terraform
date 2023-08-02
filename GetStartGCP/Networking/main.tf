@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  project = "ca-qulijing-edu"
+  project = "プロジェクトID"
   region = "asia-northeast1"
   zone = "asia-northeast1-b"
 }
