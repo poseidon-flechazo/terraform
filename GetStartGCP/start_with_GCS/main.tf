@@ -14,7 +14,7 @@ provider "google" {
 }
 
 resource google_storage_bucket "sb_tf"{
-  name = "ca-qulijing-edu_terroform"
+  name = "プロジェクトID_terroform"
   location = "asia-northeast1"
   project = "プロジェクトID"
 }
