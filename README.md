@@ -254,7 +254,7 @@ alias tfa='terraform apply'
 - `provider`の部分の下に追記
   ```tf
   resource google_storage_bucket "sb_tf"{
-    name = "ca-qulijing-edu_terroform"
+    name = "プロジェクタID_terroform"
     location = "asia-northeast1"
     project = "プロジェクトID"
   }
